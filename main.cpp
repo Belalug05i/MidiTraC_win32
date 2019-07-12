@@ -132,7 +132,7 @@ void getMidiOutDev(uint* dev_out)
 }
 void getSettings(long* bpm, long* speed, long* divider, uint* loop) {
 	system("cls");
-	intro()
+	intro();
 	std::cout << "\r BPM: ";
 	std::cin >> *bpm;
 	*divider *= CLKDIV;
