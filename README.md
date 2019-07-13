@@ -1,6 +1,7 @@
 # MidiTraC
 polyphonic Step Sequencer / Pattern Generator
 
+https://youtu.be/VM5_3FSjN7w
 https://youtu.be/qxsmedl3lIE
 
 						_  ALICE_D25
