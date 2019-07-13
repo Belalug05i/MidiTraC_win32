@@ -30,4 +30,13 @@ while Key is hold [Sustain] tie Notes, else insert Rest...
 MidiTraC v0.3:
 + send MidiClock
 + adjust BPM during play
++ add Keyboard Controls:
+	adjust ClkDiv while recording = [LSHIFT]
+	stop Step recording / Play    = [SPACE]
+	start Step Record / Stop      = [LSTRG]
+	erase Buffer while recording  = [BACK]
+	erase Tracks while playing    = [RSHIFT]
+	adjust Tempo while playing    = [LEFT<>Right]
+	
++ remove display Steps & Events while playing
 + add Colors
