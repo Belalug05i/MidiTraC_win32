@@ -31,6 +31,7 @@ MidiTraC v0.3:
 + send MidiClock
 + adjust BPM during play
 + add Keyboard Controls:
+
 	adjust ClkDiv while recording = [LSHIFT]
 	stop Step recording / Play    = [SPACE]
 	start Step Record / Stop      = [LSTRG]
