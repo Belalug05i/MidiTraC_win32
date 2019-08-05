@@ -44,9 +44,9 @@ MidiTraC v0.3:
 
 MidiTraC v0.4:
 + add liveRecordings
-	press [SPACE] while playing to start liveRec.-Mode...
-	recording is enaled till the end of the pattern, if Notes are recorded.
-	after liveRec.-Mode ends itself, recorded Notes are quantize to 8n Notes
+	+ press [SPACE] while playing to start liveRec.-Mode...
+	+ recording is enaled till the end of the pattern, if Notes are recorded.
+	+ after liveRec.-Mode ends itself, recorded Notes are quantize to 8n Notes
 + smaller UI and new MemoryManagement
 + add Stats while playing
 + add undo function...
