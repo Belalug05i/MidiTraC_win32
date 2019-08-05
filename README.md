@@ -11,33 +11,42 @@ https://youtu.be/qxsmedl3lIE
 			 | | | | | || |/ _` | | | | | | (_| | |_ 
 			 |_| |_| |_||_|\(_|_|_|__||_|  \__,_|\__| polyphonic
 
-MidiTraC, a polyphonic MultiTrack Step Sequencer like to the one used in the Roland JX-3P,
-or a Pattern Generator like the Roland MSQ-700. Input via midi keyboard can be monophonic
+MidiTraC, a polyphonic MultiTrack Step Sequencer like the one used in the Roland JX-3P,
+or a Pattern Creator like the Roland MSQ-700. Input via midi keyboard can be monophonic
 as well as polyphonic. Sustain serves a switch for Tie & Rest. While sustaining a note,
-Sustain causes the note to extend, depending on the Clock Divider. In conjunction with 
-e.g. Arturia keystep, the transport buttons can be used for START, STOP and RECORD. 
-Another practical feature is the HOLD button, which can be set to Toggle via ControlCenter. 
-(as shown in the video) MidiTraC controlled via LoopBack some VST's in Ableton, but it also 
-works with hardware Synth's or multitimbral like G2 Nord Modular. The MIDI channel, activated
-via the keyboard controller is recorded and played back. 
+Sustain causes the note to extend, depending on the Clock Divider. Using a SustainPedal
+(or cc 0x40) for Tie & Rest Notes: while a Key is pressed, [Sustain] tie Notes, else it
+insert Rest. In conjunction with  a Midi-Keyboard Controller, the transport buttons can
+be used for: START, STOP & RECORD. (as shown in the video) MidiTraC controlled some VST
+Intruments in Ableton using LoopMIDI to route the MidiStream, but it also works well on
+hardware Synth's.
 
 using Transport Buttons from Hardware Midi Controller:
 [Start] stop Step recording (cc 0x33b)
 [Stop] stop playing, start StepRecord (cc 0x32b)
 [Rec] erase MidiBuffer, during StepRecord (cc 0x36b)
 
-using Sustain Pedal (cc 0x40) for Tie & Rest Notes
-while Key is hold [Sustain] tie Notes, else insert Rest...
+
 
 MidiTraC v0.3:
 + send MidiClock
 + adjust BPM during play
 + add Keyboard Controls:
 	+ adjust ClkDiv while recording = [LSHIFT]
-	+ stop Step recording / Play    = [SPACE]
-	+ start Step Record / Stop      = [LSTRG]
+	+ stop Step recording / Play    = [LSTRG]
+	+ start Step Record / Stop      = [ESCAPE]
 	+ erase Buffer while recording  = [BACK]
 	+ erase Tracks while playing    = [RSHIFT]
 	+ adjust Tempo while playing    = [LEFT<>Right]
+	+ liveRec.-Mode while playing	= [SPACE]
 + remove display Steps & Events while playing
 + add Colors
+
+MidiTraC v0.4:
++ add liveRecordings
+	press [SPACE] while playing to start liveRec.-Mode...
+	recording is enaled till the end of the pattern, if Notes are recorded.
+	after liveRec.-Mode ends itself, recorded Notes are quantize to 8n Notes
++ smaller UI and new MemoryManagement
++ add Stats while playing
++ add undo function...
