@@ -22,7 +22,7 @@ as shown in the video, MidiTraC controlled some VST Intruments in Ableton using 
 using Transport Buttons from Midi Controller:
 + [Start] stop Step recording (cc 0x33b)
 + [Stop] stop playing, start StepRecord (cc 0x32b)
-+ [Rec] erase MidiBuffer, during StepRecord (cc 0x36b)
++ [Rec] erase MidiBuffer, undo (cc 0x36b)
 
 
 
@@ -33,9 +33,9 @@ MidiTraC v0.3:
 	+ adjust ClkDiv while recording = [LSHIFT]
 	+ stop Step recording / Play    = [LSTRG]
 	+ start Step Record / Stop      = [ESCAPE]
-	+ erase Buffer while recording  = [BACK]
+	+ erase Buffer / undo		= [BACK]
 	+ erase Tracks while playing    = [RSHIFT]
-	+ adjust Tempo while playing    = [LEFT<>Right]
+	+ adjust Tempo while playing    = [LEFT<>RIGHT]
 + add Colors
 
 MidiTraC v0.4:
