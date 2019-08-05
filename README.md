@@ -38,8 +38,6 @@ MidiTraC v0.3:
 	+ erase Buffer while recording  = [BACK]
 	+ erase Tracks while playing    = [RSHIFT]
 	+ adjust Tempo while playing    = [LEFT<>Right]
-	+ liveRec.-Mode while playing	= [SPACE]
-+ remove display Steps & Events while playing
 + add Colors
 
 MidiTraC v0.4:
@@ -48,5 +46,5 @@ MidiTraC v0.4:
 	+ recording is enaled till the end of the pattern, if Notes are recorded.
 	+ after liveRec.-Mode ends itself, recorded Notes are quantize to 8n Notes
 + smaller UI and new MemoryManagement
-+ add Stats while playing
++ display Stats while playing
 + add undo function...
