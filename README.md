@@ -1,5 +1,5 @@
 # MidiTraC
-polyphonic Step Sequencer / Pattern Generator
+polyphonic Step Sequencer / Pattern Creator
 
 https://youtu.be/VM5_3FSjN7w
 
