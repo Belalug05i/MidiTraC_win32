@@ -11,7 +11,7 @@ https://youtu.be/qxsmedl3lIE
 			 | | | | | || |/ _` | | | | | | (_| | |_ 
 			 |_| |_| |_||_|\(_|_|_|__||_|  \__,_|\__| polyphonic
 
-MidiTraC, a polyphonic MultiTrack Step Sequencer like the one used in the Roland JX-3P,
+MidiTraC, a polyphonic MultiTrack Step Sequencer like the one used in the Roland JX-3P,\n
 or a Pattern Creator like the Roland MSQ-700. Input via midi keyboard can be monophonic
 as well as polyphonic. Sustain serves a switch for Tie & Rest. While sustaining a note,
 Sustain causes the note to extend, depending on the Clock Divider. Using a SustainPedal
@@ -22,9 +22,9 @@ Intruments in Ableton using LoopMIDI to route the MidiStream, but it also works 
 hardware Synth's.
 
 using Transport Buttons from Hardware Midi Controller:
-[Start] stop Step recording (cc 0x33b)
-[Stop] stop playing, start StepRecord (cc 0x32b)
-[Rec] erase MidiBuffer, during StepRecord (cc 0x36b)
++ [Start] stop Step recording (cc 0x33b)
++ [Stop] stop playing, start StepRecord (cc 0x32b)
++ [Rec] erase MidiBuffer, during StepRecord (cc 0x36b)
 
 
 
