@@ -12,7 +12,7 @@ https://youtu.be/qxsmedl3lIE
 			 |_| |_| |_||_|\(_|_|_|__||_|  \__,_|\__| polyphonic
 
 MidiTraC, a polyphonic MultiTrack Step Sequencer like the one used in the Roland JX-3P, or a Pattern Creator like the Roland MSQ-700.
-+ Recording Notes via midi keyboard can be monophonic as well as polyphonic.
++ Recording Notes via Midi keyboard can be monophonic as well as polyphonic.
 + Sustain serves a switch for Tie & Rest. Sustain causes the note to extend or add Rest, depending on the Clock Divider. 
 + Using a SustainPedal(or cc 0x40) for Tie & Rest Notes: while a Key is pressed, [Sustain] tie Notes, else it insert a Rest. 
 + In conjunction with a Midi Controller, the transport buttons can be used for: START, STOP & RECORD.
